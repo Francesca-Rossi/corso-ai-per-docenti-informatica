@@ -1,0 +1,158 @@
+RISPOSTE DI PERPLEXITY AI - Esercitazione Lezione 2
+
+=====================================================================
+DOMANDA 1
+=====================================================================
+Quali attività pratiche sono efficaci per insegnare l'intelligenza artificiale a studenti di 14-15 anni, per far capire come impara dai dati e sviluppare pensiero critico sui suoi errori? Cerca paper pubblicati su journal e su riviste scientifiche con revisione paritaria dal 2019 in poi, link a siti autorevoli che trattano di computer science education, ai education, computer science unplugged, ai unplugged. Per ogni studio indica autori, anno, rivista, età dei partecipanti, attività svolte, risultati positivi e limiti.
+
+RISPOSTA 1
+
+Sì: per studenti di 14–15 anni risultano particolarmente efficaci attività pratiche, collaborative e riflessive in cui costruiscono, testano e criticano un piccolo sistema di machine learning. La ricerca suggerisce di alternare attività unplugged (senza computer) per rendere visibili dati, regole, bias ed errori, e attività plugged per addestrare e verificare modelli reali.
+
+Attività consigliate
+Attività	Cosa fanno gli studenti	Concetto di AI	Pensiero critico
+Classificatore umano	In gruppi, etichettano carte/immagini con regole (“gatto vs. cane”), poi una “rete” di compagni classifica nuovi esempi	Dati di addestramento, caratteristiche, regole, classificazione	Discutere quali esempi mancano e perché il sistema sbaglia
+Dataset imperfetto	Creano un dataset sbilanciato (es. solo foto di cani bianchi) e osservano errori su casi non rappresentati	Bias, rappresentatività, qualità dei dati	Chiedersi: chi è escluso? quali danni può causare?
+Teachable Machine	Raccolgono immagini/audio/gesti, addestrano un modello e lo testano con esempi nuovi	Apprendimento supervisionato, addestramento/test	Confrontare accuratezza su dati noti e nuovi; individuare errori sistematici
+Audit del modello	Testano intenzionalmente il modello con varianti di luce, sfondo, accento, genere o etnia	Generalizzazione, robustezza, bias	Proporre miglioramenti al dataset e valutare rischi etici
+“Fake news” generativa	Analizzano immagini/testi generati e cercano indizi di manipolazione	AI generativa, deepfake, disinformazione	Verificare fonti, riconoscere limiti e usi impropri
+Progetto sociale	Progettano un assistente/classificatore per un problema scolastico o di comunità	Progettazione, stakeholder, impatto sociale	Analizzare benefici, danni, privacy e alternative
+Queste attività corrispondono alle cinque idee fondanti di AI4K12: percezione, rappresentazione e ragionamento, apprendimento dai dati, interazione naturale e impatto sociale.
+
+Studi peer-reviewed dal 2019
+1. AI Unplugged — Lindner, Seegerer e Romeike (2019)
+Autori e anno: Annabel Lindner, Stefan Seegerer, Ralf Romeike, 2019.
+
+Rivista/venue: Informatics in Schools (ISSEP 2019), Springer, con revisione paritaria.
+
+Età: attività progettate per la scuola secondaria; l’articolo non fissa una fascia d’età uniforme nei risultati riportati.
+
+Attività: sequenza di attività AI Unplugged per rendere tangibili concetti di AI senza programmazione, includendo discussioni su temi sociali.
+
+Risultati positivi: rende accessibili le idee centrali dell’AI e crea occasioni per discutere implicazioni sociali; è diventato un riferimento per l’insegnamento unplugged dell’AI.
+
+Limiti: è soprattutto una proposta didattica con esperienze pratiche descritte, non uno studio sperimentale con gruppo di controllo o misure standardizzate degli apprendimenti.
+
+2. AI + Ethics Curricula — Ali et al. (2022)
+Autori e anno: Southina Ali, Michael DiPaola, Irene Lee, Victor Overdorf, Cynthia Breazeal, 2022.
+
+Rivista: International Journal of Artificial Intelligence in Education, Springer.
+
+Età: 78 studenti di middle school, età media 12,44 anni (quindi più giovani dei 14–15 anni, ma molto pertinente per progettare attività successive).
+
+Attività: tre curricula — Creative AI, Dancing with AI e How to Train Your Robot — con attività unplugged, simulazioni, discussioni etiche, coding a blocchi e progetti finali; in How to Train Your Robot gli studenti addestrano modelli e creano progetti con robot.
+
+Risultati positivi: l’integrazione di apprendimento attivo, etica incorporata e basse barriere d’accesso ha favorito la comprensione dei concetti AI e lo sviluppo di uno sguardo critico su funzionamento e impatto sociale; gli studenti hanno creato e criticato artefatti AI.
+
+Limiti: studio svolto online durante il COVID, in contesto estivo e con campione limitato; alcune attività tangibili e discussioni risultarono più difficili da condurre a distanza.
+
+3. DAILy — Lee et al. (2021)
+Autori e anno: Irene Lee e collaboratrici, 2021.
+
+Rivista/venue: esperienza report presentato a SIGCSE 2021, conferenza ACM con revisione paritaria.
+
+Età: 31 studenti di middle school, 10–14 anni; l’87% proveniva da gruppi sottorappresentati in STEM.
+
+Attività: curriculum DAILy con attività pratiche su machine learning, inclusa l’attività unplugged Contour to Classification Game, e riflessioni su bias e implicazioni etiche.
+
+Risultati positivi: aumento statisticamente significativo delle conoscenze AI tra pre- e post-test, con il miglioramento maggiore nell’area del machine learning; sono aumentati anche consapevolezza delle carriere AI e preoccupazione etica per bias latenti.
+
+Limiti: campione piccolo, formato workshop breve e non scolastico; i risultati non sono direttamente generalizzabili a una classe ordinaria di quindicenni.
+
+4. VotestratesML — Kaspersen et al. (2022)
+Autori e anno: Magnus Høholt Kaspersen, Karl-Emil Kjær Bilstrup, Maarten Van Mechelen, Arthur Hjort, Niels Olof Bouvin, Marianne Graves Petersen, 2022.
+
+Rivista: International Journal of Child-Computer Interaction, Elsevier.
+
+Età: studenti delle superiori; lo studio è particolarmente adatto come ponte verso i 14–15 anni, anche se non identifica una fascia ristretta 14–15.
+
+Attività: uso dello strumento VotestratesML in classe di studi sociali per esplorare come il machine learning può influenzare elezioni e processi democratici.
+
+Risultati positivi: partire da un caso concreto e familiare ha aiutato gli studenti a riflettere e formarsi opinioni sull’uso dell’ML; collaborazione e competizione iterativa hanno aumentato la motivazione a esplorare.
+
+Limiti: l’attenzione è su implicazioni sociali e democratiche più che sull’addestramento tecnico completo di un modello; serve integrazione con attività pratiche di data science per coprire tutto il ciclo ML.
+
+5. Introducing AI Without Computers — studio ACM del 2025
+Autori e anno: articolo ACM del 2025 su attività unplugged per middle school; il risultato elenca attività come Introducing AI, Datasets and Data Brokers, EthiQuest e Are You Smarter than AI?
+
+Rivista/venue: ACM, con revisione paritaria.
+
+Età: studenti di middle school; fascia compatibile con l’avvio della secondaria, ma non specificamente 14–15.
+
+Attività: quattro attività senza computer centrate su esperienze personali, dataset, broker dei dati e ragionamento etico collaborativo.
+
+Risultati positivi: dopo un workshop di cinque giorni, gli studenti hanno migliorato la comprensione di concetti fondamentali dell’AI, inclusi riconoscimento dell’AI, punti di forza e limiti, e ragionamento etico.
+
+Limiti: pilota di breve durata in contesto estivo; servono studi longitudinali e in classe per verificare trasferimento e retention.
+
+Risorse autorevoli
+AI4K12 — iniziativa AAAI/CSTA con linee guida K-12, progressione per fasce d’età e risorse curricolari: 
+https://ai4k12.org/
+
+MIT RAISE — risorse e curricula di AI literacy, inclusi i materiali legati a DAILy, Dancing with AI e How to Train Your Robot: https://raise.mit.edu
+
+CS Unplugged — attività originali di computer science senza computer, base concettuale per le attività unplugged: https://csunplugged.org/
+
+Machine Learning for Kids — ambiente per addestrare semplici classificatori con testo, immagini e numeri e usarli in Scratch: https://machinelearningforkids.co.uk/
+
+Teachable Machine — strumento Google per addestrare rapidamente modelli di immagini, suoni o pose nel browser: https://teachablemachine.withgoogle.com/
+
+CSTA — standard e risorse per l’insegnamento dell’informatica: https://www.csteachers.org/
+
+ISTE — guide didattiche pratiche sull’AI per docenti: https://iste.org/
+
+Impostazione didattica efficace
+Per una classe di 14–15 anni, una sequenza di 4–6 ore funziona bene:
+
+Unplugged: classificare esempi con regole umane e far emergere ambiguità.
+
+Dati: costruire un dataset e discuterne rappresentatività, privacy e bias.
+
+Addestramento: usare Teachable Machine o ML4Kids per creare un classificatore.
+
+Test critico: cercare casi limite e misurare errori su sottogruppi.
+
+Etica e redesign: analizzare stakeholder, danni potenziali e migliorare dati/modello/uso.
+
+La letteratura indica che l’efficacia aumenta quando l’etica non è una lezione separata, ma è incorporata nell’attività tecnica: gli studenti comprendono meglio sia il funzionamento sia le conseguenze sociali dell’AI. Le revisioni recenti confermano inoltre che una literacy AI completa combina concetti fondamentali, creazione di artefatti, interazione con sistemi AI, etica e relazione uomo-AI.
+
+=====================================================================
+DOMANDA 2
+=====================================================================
+Cerca solo articoli pubblicati su riviste scientifiche (non atti di convegno) dal 2021 in poi in cui studenti di scuola secondaria addestrano un modello con Teachable Machine o strumenti simili. Per ciascuno indica autori esatti, rivista, volume e DOI.
+
+RISPOSTA 2
+
+Ho trovato tre articoli su riviste scientifiche con revisione paritaria, pubblicati dal 2021, in cui studenti di scuola secondaria addestrano modelli di machine learning con Google Teachable Machine o strumenti analoghi. Ho escluso atti di convegno, review senza intervento con studenti e articoli in cui il modello non veniva addestrato dagli studenti.
+
+1. Machine Learning for All!
+Autori esatti: Ramon Mayor Martins, Christiane Gresse von Wangenheim, Marcelo Fernando Rauber, Jean Carlo Rossa Hauck.
+Rivista: International Journal of Artificial Intelligence in Education.
+Volume/pagine: Volume 34, pp. 185–223, 2024; pubblicato online il 25 gennaio 2023.
+DOI: https://doi.org/10.1007/s40593-022-00325-y
+Partecipanti: 108 studenti di middle e high school.
+Strumento e attività: corso introduttivo online in portoghese brasiliano su concetti di machine learning, reti neurali, limiti ed etica; gli studenti creano un classificatore di immagini per il riciclaggio dei rifiuti usando Google Teachable Machine.
+Pertinenza: è lo studio più direttamente rispondente alla richiesta, perché l'addestramento del modello con Teachable Machine è parte centrale dell'intervento.
+
+2. High school students' data modeling practices
+Autori esatti: Shiyan Jiang, Hengtao Tang, Cansu Tatara, Carolyn P. Rosé, Jie Chao.
+Rivista: Learning, Media and Technology.
+Volume/pagine: Volume 48, numero 2, pp. 350–368, 2023.
+DOI: https://doi.org/10.1080/17439884.2023.2189735
+Partecipanti: 28 studenti di high school.
+Strumento e attività: gli studenti sviluppano modelli di machine learning su dati testuali per classificare recensioni positive e negative di gelaterie; l'articolo esplora pratiche di esplorazione, sviluppo e test del modello, oltre alla valutazione critica delle decisioni automatizzate.
+Nota di precisione: lo studio usa un ambiente di data modeling/ML con dati non strutturati, non Teachable Machine; lo includo perché rientra negli "strumenti simili" e affronta esplicitamente bias, data justice e responsabilità dei modellatori.
+
+3. Teaching AI and ML in Secondary Education
+Autore esatto: Georgios Karalekas.
+Rivista: Applied Sciences (MDPI).
+Volume/numero/articolo: Volume 15, numero 8, articolo 4570, 2025.
+DOI: https://doi.org/10.3390/app15084570
+Partecipanti: 20 studenti di nona classe di una scuola secondaria greca, di età 14–15 anni, 12 ragazze e 8 ragazzi.
+Strumento e attività: in coppie, gli studenti addestrano con Google Teachable Machine un modello di classificazione di due posture corporee usando la webcam; poi collegano il modello a un braccio robotico Arduino, che reagisce alle pose riconosciute. L'intervento confronta anche una versione precedente basata su Scratch e ML4Kids.
+Pertinenza: è lo studio con la corrispondenza più stretta alla fascia 14–15 anni e all'uso esplicito di Teachable Machine.
+
+Come usarli in classe
+Per studenti di 14–15 anni, i tre studi suggeriscono una progressione concreta: prima costruire un dataset, poi addestrare un classificatore con Teachable Machine o ML4Kids, infine testarlo con casi nuovi e discutere errori, bias e impatto. Il lavoro di Jiang et al. è particolarmente utile per aggiungere la dimensione critica: non basta ottenere un modello accurato, bisogna chiedersi quali dati sono stati raccolti, chi è rappresentato e quali decisioni automatizzate potrebbero essere ingiuste.
+
+(La verifica di queste risposte e gli errori trovati sono nella sezione D del file fonti.txt.)

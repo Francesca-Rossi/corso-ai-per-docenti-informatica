@@ -1,0 +1,407 @@
+ARGOMENTO
+Studenti di 11-17 anni (con attenzione ai 14-15): come apprende l'intelligenza artificiale e perché può avere
+pregiudizi (bias), produrre allucinazioni e commettere errori.
+Attività pratiche unplugged (senza computer) e al computer.
+
+Ricerca fatta con Perplexity AI (2 domande), fonti verificate a mano il 2/11/2026.
+
+
+=====================================================================
+A. STUDI SU RIVISTA (revisione paritaria) - VERIFICATI
+=====================================================================
+
+1. Martins, R. M., Gresse von Wangenheim, C., Rauber, M. F., Hauck, J. C. R. (2024)
+   "Machine Learning for All! Introducing Machine Learning in Middle and High School"
+   International Journal of Artificial Intelligence in Education, 34, 185-223
+   https://doi.org/10.1007/s40593-022-00325-y
+   - 108 studenti di scuola media e superiore
+   - Creano con Teachable Machine un classificatore di immagini di rifiuti da riciclare
+   - Risultati: capiscono i concetti e costruiscono il modello; nessuna differenza
+     per livello scolastico o genere
+   - Limiti: corso online in portoghese, valutazione esplorativa
+
+2. Williams, R., Ali, S., Devasia, N., DiPaola, D., Hong, J., Kaputsos, S. P., Jordan, B., Breazeal, C. (2023)
+   "AI + Ethics Curricula for Middle School Youth: Lessons Learned from Three Project-Based Curricula"
+   International Journal of Artificial Intelligence in Education, 33, 325-383
+   https://link.springer.com/article/10.1007/s40593-022-00298-y
+   - 78 studenti, età media 12 anni, tre percorsi del MIT
+   - Attività senza computer, Teachable Machine, programmazione a blocchi, etica integrata
+   - Risultati: comprensione dei concetti e sguardo critico sull'IA
+   - Limiti: online durante il COVID, campione piccolo, studenti scelti dai docenti;
+     la sperimentazione libera crea idee sbagliate, servono schede guida
+
+3. Zhang, H., Lee, I., Ali, S., DiPaola, D., Cheng, Y., Breazeal, C. (2022/2023)
+   "Integrating Ethics and Career Futures with Technical Learning to Promote AI Literacy
+   for Middle School Students: An Exploratory Study"
+   International Journal of Artificial Intelligence in Education
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC9084886
+   - 25 studenti, 12-15 anni
+   - Attività senza computer, Teachable Machine, gioco di ruolo sulle reti neurali, etica
+   - Risultati: migliorano su riconoscere l'IA e apprendimento supervisionato;
+     riconoscono i pregiudizi nei dati
+   - Limiti: reti neurali e IA generativa restano difficili; nessun gruppo di controllo
+
+4. Jiang, S., Tang, H., Tatar, C., Rosé, C. P., Chao, J. (2023)
+   Studio sulle pratiche di modellazione dei dati di studenti delle superiori
+   Learning, Media and Technology
+   https://doi.org/10.1080/17439884.2023.2189735  (DOI da Perplexity, non verificato)
+   - 28 studenti delle superiori
+   - Addestrano un classificatore di recensioni (positive/negative)
+   - Risultati: fanno ipotesi, scoprono errori del modello, lo correggono;
+     riflettono sulle decisioni automatizzate ingiuste
+   - Limiti: campione piccolo, non usa Teachable Machine
+
+5. Karalekas, G., Vologiannidis, S., Kalomiros, J. (2025)
+   "Teaching Artificial Intelligence and Machine Learning in Secondary Education:
+   A Robotics-Based Approach"
+   Applied Sciences, 15(8), 4570
+   https://doi.org/10.3390/app15084570
+   - 20 studenti di 14-15 anni (Grecia)
+   - Teachable Machine per riconoscere pose, collegato a un braccio robotico
+   - Risultati: più interesse e attenzione rispetto a un gruppo dell'anno precedente
+   - Limiti: campione piccolo, nessun pre/post test, solo autovalutazioni,
+     confronto informale; serve un robot; rivista di ingegneria, non di didattica
+
+6. Bewersdorff, A., Zhai, X., Roberts, J., Nerdel, C. (2023)
+   "Myths, mis- and preconceptions of artificial intelligence: A review of the literature"
+   Computers and Education: Artificial Intelligence, 4
+   - Rassegna: gli studenti umanizzano l'IA e la vedono in bianco o nero
+
+
+=====================================================================
+A2. LE PROVE PIÙ SOLIDE: META-ANALISI, RASSEGNE E STUDI PIÙ GRANDI
+=====================================================================
+
+Nota: studi molto grandi, con gruppo di controllo, proprio su 14-15 anni e
+proprio sull'unplugged ancora non esistono. Le prove più forti vengono da
+meta-analisi e da studi di medie dimensioni nella secondaria.
+
+--- Meta-analisi e rassegne ---
+
+7. Liu, Lin, Ng, Yang, Dai (2026)
+   "AI literacy interventions in education: A meta-analysis of effects and moderators"
+   Educational Research Review, 52, 100813
+   https://www.sciencedirect.com/science/article/pii/S1747938X26000527
+   - 59 studi, 7.211 partecipanti
+   - Effetto grande dei percorsi sull'IA (g = 0,84)
+   - Guadagni soprattutto nella conoscenza; etica, abilità e atteggiamenti migliorano meno
+   - Secondaria g = 0,66 (il più basso, ma differenza non significativa)
+   - Limiti: durata non analizzata, effetti molto variabili
+
+8. Yu, Kim, Chang, Huang (2026)
+   "The Effects of K-12 Artificial Intelligence Education in Enhancing AI Literacy: A Meta-Analysis"
+   Journal of Computer Assisted Learning
+   https://onlinelibrary.wiley.com/doi/10.1002/jcal.70308
+   - 16 studi, 57 effetti; effetto forte (g = 0,89), nessuna differenza tra livelli scolastici
+   - Limiti: pochi studi; letto solo l'abstract
+
+9. Chen, Yang, Metwally et al. (2023)
+   "Fostering computational thinking through unplugged activities: A systematic literature review and meta-analysis"
+   International Journal of STEM Education, 10, 47
+   https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-023-00434-7
+   - 49 studi (meta-analisi su 13, 1.736 studenti)
+   - Unplugged: effetto grande sul pensiero computazionale (g = 1,03),
+     secondaria inferiore g = 1,12
+   - Limiti: riguarda il pensiero computazionale, non l'IA; non chiaro come
+     combinare unplugged e computer
+
+10. Ng, Su, Leung, Chu (2024)
+    "Artificial Intelligence (AI) Literacy Education in Secondary Schools: A Review"
+    Interactive Learning Environments, 32(10), 6204-6224
+    https://eric.ed.gov/?id=EJ1455822
+    - Rassegna di 50 studi nella secondaria (2016-2022)
+    - Approccio più usato: progetti in gruppo; strumenti hardware, software,
+      agenti intelligenti e unplugged
+    - Biennio: esperienza e concetti base; triennio: parti più tecniche
+
+--- Studi singoli più grandi nella secondaria ---
+
+11. Chiu, Meng, Chai, King, Wong, Yam (2022)
+    "Creation and Evaluation of a Pretertiary Artificial Intelligence (AI) Curriculum"
+    IEEE Transactions on Education
+    https://arxiv.org/abs/2101.07570
+    - 335 studenti di 6 scuole secondarie (Hong Kong)
+    - Curricolo costruito con i docenti: più senso di competenza e atteggiamento positivo
+    - Limiti: soprattutto autovalutazioni
+
+12. Kong, Cheung, Tsang (2023)
+    "Evaluating an artificial intelligence literacy programme for empowering and developing
+    concepts, literacy and ethical awareness in senior secondary students"
+    Education and Information Technologies, 28(4)
+    https://link.springer.com/article/10.1007/s10639-022-11408-7
+    - 141 studenti del triennio (Hong Kong, 15-18 anni), 34 ore per progetti
+    - Machine learning ed etica, senza bisogno di saper programmare
+    - Migliorano concetti e consapevolezza etica
+    - Limiti: nessun gruppo di controllo; principi etici astratti difficili
+
+13. Kong, Cheung, Tsang (2024)
+    "Developing an artificial intelligence literacy framework: Evaluation of a literacy course
+    for senior secondary students using a project-based learning approach"
+    Computers and Education: Artificial Intelligence, 6, 100214
+    https://www.sciencedirect.com/science/article/pii/S2666920X24000158
+    - 128 studenti del triennio (Hong Kong), 14 ore
+    - Progetti con Teachable Machine e strumenti senza codice
+      (es. un "allenatore" che corregge la postura)
+    - Migliorano concetti (da 4,01 a 4,47 su 7), etica, autoefficacia, problem solving con l'IA
+    - Limiti: solo Hong Kong, nessun controllo, test poco affidabile
+
+14. Lu, Fan (2023)
+    "Developing a weather prediction project-based machine learning course in facilitating
+    AI learning among high school students"
+    Computers and Education: Artificial Intelligence, 5, 100154
+    https://www.sciencedirect.com/science/article/pii/S2666920X23000334
+    - 68 studenti di 16-17 anni, già esperti di C
+    - Machine learning in Python (pandas, scikit-learn): regressione e previsione della pioggia
+    - Migliora il pensiero computazionale
+    - Limiti: un solo gruppo, nessun confronto
+
+--- Cosa se ne ricava ---
+- Che insegnare l'IA funzioni è dimostrato su migliaia di studenti (7, 8)
+- Nella secondaria l'approccio più studiato è il progetto con strumenti senza codice
+  come Teachable Machine (10, 13); non serve saper programmare (12)
+- L'unplugged ha prove forti per il pensiero computazionale (9); per l'IA va combinato
+  con il computer (Williams 2023)
+- Punto debole comune: etica e pensiero critico migliorano meno della conoscenza (7, 12);
+  vanno progettati in modo esplicito
+- Vuoto della ricerca: pochi gruppi di controllo, quasi niente in Europa,
+  nulla in Italia
+
+
+=====================================================================
+A3. BIAS, ALLUCINAZIONI ED ERRORI: STUDI SPECIFICI
+=====================================================================
+
+15. Iqbal, Singh, Khan, Osho, Sidnam-Mauch, Bannister, Caine, Knijnenburg (2025)
+    "Teaching AI awareness in middle school classrooms: Design, implementation and
+    evaluation of two education modules on algorithmic bias and filter bubbles"
+    Computers and Education: Artificial Intelligence, 8, 100425
+    https://www.sciencedirect.com/science/article/pii/S2666920X25000657
+    - 180 studenti di 12-14 anni (una scuola rurale, USA)
+    - Modulo "AI Bias": attività unplugged (disegno, ricetta della torta, discussione)
+      e al computer (Quick, Draw!, foglio di calcolo su dati e previsioni sbilanciate)
+    - Modulo "Filter Bubble": confronto tra motori di ricerca, simulazione, sistema di raccomandazione
+    - Risultati: conoscenza sul bias migliorata in modo significativo; il 66% dice di dover
+      essere più attento quando si fida di informazioni prodotte da algoritmi
+    - Limiti: un solo gruppo senza controllo; solo 57 studenti con test prima e dopo;
+      una sola scuola
+
+16. Ali, DiPaola, Lee, Sindato, Kim, Blumofe, Breazeal (2021)
+    "Children as creators, thinkers and citizens in an AI-driven future"
+    Computers and Education: Artificial Intelligence, 2, 100040
+    https://doaj.org/article/f696797e8362444c88eea015b484ca87
+    - 38 studenti delle medie
+    - IA generativa e deepfake: come si creano, come riconoscerli, come si diffonde
+      la disinformazione
+    - Risultati: capiscono che un contenuto generato può sembrare credibile senza
+      essere vero
+    - Limiti: campione piccolo
+
+17. [CONTESTO, NON ATTIVITÀ] Jaggy, Jansen, Fütterer, Trautwein (2026)
+    "Almighty ChatGPT?: Development of gifted secondary school students' AI (mis)conceptions"
+    Journal of Educational Psychology
+    https://www.leibniz-ipn.de/en/research/publications/almighty-chatgpt
+    - 870 studenti plusdotati, 6°-8° anno di scuola
+    - Circa 1 su 5 crede che l'IA generativa "sappia tutto"; l'idea si corregge meno
+      in chi ha meno risorse cognitive
+    - Nessun intervento: descrive l'idea sbagliata, non come correggerla
+    - Limiti: studenti plusdotati
+
+18. Estevez, Garate, Graña (2019)
+    "Gentle Introduction to Artificial Intelligence for High-School Students Using Scratch"
+    IEEE Access, 7, 179027-179036
+    https://doi.org/10.1109/ACCESS.2019.2956136
+    - 37 studenti di 16-17 anni, indirizzo tecnologico, con 4 ore di Scratch alle spalle
+    - Al computer, schema use-modify-create: completano in Scratch il K-means
+      (raggruppare punti) e un neurone che impara le porte AND e OR correggendo i pesi
+    - Risultati: l'idea di IA passa da "robot e macchine" ad "algoritmi che imparano
+      e predicono"; le paure passano dai Terminator ai dati e alla privacy;
+      "l'IA è troppo difficile" scende dal 52% al 12%
+    - Limiti: un solo laboratorio, campione piccolo, studenti più grandi (16-17 anni),
+      nessun gruppo di controllo; non tratta bias e allucinazioni
+    - Utile per: mostrare "dall'interno" come un algoritmo impara dagli errori
+
+19. Vartiainen, Kahila, Tedre, López-Pernas, Pope (2025)
+    "Enhancing children's understanding of algorithmic biases in and with
+    text-to-image generative AI"
+    New Media & Society, 27(9), 5342-5368
+    https://repository.nwu.ac.za/items/bd695d19-514f-4179-8067-fca71b40e540
+    - 209 studenti finlandesi di 4ª e 7ª classe (circa 10 e 13 anni)
+    - Laboratori pratici con IA che genera immagini da testo, schede di lavoro
+      sul bias e test scritto prima e dopo
+    - Risultati: migliorano in modo significativo nello spiegare le cause del bias
+      a partire dai dati con cui l'IA è stata addestrata
+    - Limiti: età solo in parte nella fascia (la 7ª classe); letto solo l'abstract
+
+Nota sulle allucinazioni: non ho trovato studi su rivista con un'attività in classe
+sulle allucinazioni dei chatbot con studenti di 14-15 anni. L'attività si giustifica
+con gli studi sulle idee sbagliate (6, 17) e sui contenuti generati credibili ma
+falsi (16).
+
+
+=====================================================================
+B. ATTI DI CONVEGNO (valore minore, ma utili)
+=====================================================================
+
+- Lindner, Seegerer, Romeike (2019), "Unplugged Activities in the Context of AI", ISSEP 2019
+  Materiali: https://www.ddi.tf.fau.de/en/schule/unterrichtsmaterialien/ai-unplugged/
+- Lee, Ali, Zhang, DiPaola, Breazeal (2021), "Developing Middle School Students' AI Literacy",
+  SIGCSE 2021
+
+
+=====================================================================
+C. RISORSE AUTOREVOLI
+=====================================================================
+
+- AI4K12 (le cinque grandi idee dell'IA): https://ai4k12.org/
+- MIT RAISE (percorsi DAILy, How to Train Your Robot): https://raise.mit.edu
+- CS Unplugged: https://csunplugged.org/
+- Teachable Machine: https://teachablemachine.withgoogle.com/
+
+
+=====================================================================
+D. COSA HA SBAGLIATO PERPLEXITY (verificato a mano)
+=====================================================================
+
+- Prima domanda: ha attribuito lo studio "AI + Ethics Curricula" ad "Ali et al. 2022"
+  con nomi inventati o storpiati ("Southina Ali", "Michael DiPaola", "Victor Overdorf").
+  Gli autori veri sono Williams, Ali, Devasia, DiPaola e altri. I dati sugli studenti
+  invece erano giusti.
+- Prima domanda: avevo chiesto solo riviste, ma 3 studi su 5 erano atti di convegno;
+  per uno studio non ha indicato gli autori.
+- Seconda domanda: per lo studio di Karalekas ha indicato un solo autore
+  ("Autore esatto: Georgios Karalekas"); gli autori sono tre.
+- Seconda domanda: ha scritto "Tatara" invece di "Tatar".
+- Non ha trovato da solo lo studio di Zhang et al. (rivista, 12-15 anni, molto pertinente).
+
+Lezione: i riassunti sembrano precisi, ma autori e dettagli vanno sempre controllati
+sulla fonte originale.
+
+
+=====================================================================
+E. LE IDEE SBAGLIATE DEGLI STUDENTI, ORDINATE PER "GRANDI IDEE"
+=====================================================================
+
+Cornice: le cinque grandi idee dell'IA di AI4K12 (Touretzky et al. 2019)
+1 Percezione  2 Rappresentazione e ragionamento  3 Apprendimento
+4 Interazione naturale  5 Impatto sociale
+https://ai4k12.org/
+
+--- Studi sulle idee sbagliate ---
+
+20. Mertala, Fagerlund, Calderon (2022)
+    "Finnish 5th and 6th grade students' pre-instructional conceptions of artificial
+    intelligence (AI) and their implications for AI literacy education"
+    Computers and Education: Artificial Intelligence, 3, 100095
+    https://doaj.org/article/f592a9acaf2c4d17994c15289f6e534e
+    - 195 studenti di 5ª e 6ª classe (circa 11-12 anni), questionario prima di ogni lezione
+    - Quasi nessuno nomina il ruolo dei DATI nell'addestramento
+    - L'IA è descritta come simile a un essere umano, con capacità cognitive come le nostre
+    - Indicazione: "demistificare" l'IA mostrando i principi tecnici, soprattutto i dati
+
+21. Mertala, Fagerlund (2024)
+    "Finnish 5th and 6th graders' misconceptions about artificial intelligence"
+    International Journal of Child-Computer Interaction, 39, 100630
+    https://jyx.jyu.fi/handle/123456789/93279
+    - Stessi 195 studenti; tre tipi di idee sbagliate:
+      a) IA "non tecnologica": confusa con i processi mentali delle persone
+      b) IA antropomorfa: un'entità simile a un essere umano
+      c) IA con intelligenza o conoscenza già "installata", non appresa
+    - Le parole contano: certi termini del linguaggio comune alimentano le idee sbagliate
+
+(Già nel file: 6 Bewersdorff 2023 - rassegna; 17 Jaggy 2026 - "l'IA sa tutto")
+
+--- Da verificare (non sono riuscito ad aprirli) ---
+- Rassegna sistematica "Students' conceptions of artificial intelligence and machine
+  learning in K-12 education", Computer Science Education, 2026
+  https://www.tandfonline.com/doi/full/10.1080/08993408.2026.2738165
+- Dong et al. (2026) "From simplification to sophistication: Secondary students'
+  conceptual change in understanding machine learning model decision making",
+  British Journal of Educational Technology
+  https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.70024
+- Rassegna di 18 studi su modelli mentali e atteggiamenti degli studenti della
+  secondaria verso l'IA, Computers and Education: AI, 5, 100169 (TU Dresden)
+
+--- Informatica in generale (programmazione) ---
+22. Qian, Lehman (2017)
+    "Students' misconceptions and other difficulties in introductory programming:
+    A literature review"
+    ACM Transactions on Computing Education, 18(1)
+    https://doi.org/10.1145/3077618
+    - Rassegna di riferimento sulle idee sbagliate di chi impara a programmare,
+      tra cui l'idea che il computer "capisca" le intenzioni di chi scrive il codice
+      (la stessa umanizzazione che si ritrova con l'IA)
+
+--- Mappa: idea sbagliata -> grande idea -> fonte -> attività che la mette in crisi ---
+
+| Idea sbagliata                                | Grande idea | Fonti           | Attività                                            |
+|-----------------------------------------------|-------------|-----------------|-----------------------------------------------------|
+| L'IA nasce già intelligente, sa le cose       | 3           | 21, 17          | Teachable Machine da zero: senza esempi non sa nulla |
+| I dati non c'entrano                          | 3           | 20              | Carte unplugged -> tabella -> albero di decisione    |
+| L'IA pensa e capisce come una persona         | 4           | 20, 21, 6, 22   | Neurone/albero "aperto": sono solo calcoli e regole  |
+| L'IA sa tutto e non sbaglia                   | 3, 5        | 17, 6           | Rompere il modello; verificare risposte di un chatbot|
+| L'IA è neutrale, oggettiva                    | 5           | 15, 19          | Dataset sbilanciato; immagini generate e stereotipi  |
+| L'IA è buona o cattiva (Terminator)           | 5           | 6, 18           | Matrice etica: chi ci guadagna, chi ci rimette       |
+| IA = robot                                    | 1, 2        | 18, Williams 2023| Carte "È IA o no?"                                  |
+
+
+=====================================================================
+SCALETTA DELLE SLIDE (27 pagine)
+=====================================================================
+Regola: una idea per slide, poche parole, fonte in piccolo in basso.
+I numeri tra parentesi rimandano alle fonti di questo file.
+
+APERTURA E PROBLEMA (1-4)
+ 1. Titolo: "Come impara l'IA e perché sbaglia" - studenti 11-17 anni, attività unplugged e al computer
+ 2. Domanda guida e metodo: ricerca con Perplexity, poi verifica a mano delle fonti
+ 3. Gli studenti usano l'IA ogni giorno ma la immaginano "umana", già intelligente,
+    senza dati (2, 20, 21, 6)
+ 4. "L'IA sa tutto": 1 studente su 5 ci crede (17)
+
+LE CINQUE GRANDI IDEE (5-6) - poster AI4K12, CC BY-NC-SA 4.0
+ 5. Il poster: percezione, rappresentazione e ragionamento, apprendimento,
+    interazione naturale, impatto sociale
+ 6. Perché ognuna conta: un esempio quotidiano e un'idea sbagliata che corregge
+    (tabella a 5 righe)
+
+COME APPRENDE E PERCHÉ SBAGLIA (7-12)
+ 7. Dagli esempi, non da regole scritte
+ 8. Dentro l'algoritmo: l'albero di decisione e il neurone che corregge gli errori (18, 14)
+ 9. Teachable Machine: addestrare un modello vero in pochi minuti (1, 3, 13)
+10. Il bias: l'IA impara anche i difetti dei dati (15, 19)
+11. Immagini generate e deepfake: credibili ma non vere (16, 19)
+12. Le allucinazioni: predice ciò che è probabile, non ciò che è vero
+
+COSA DICE LA RICERCA (13-16)
+13. Insegnare l'IA funziona: 59 studi, 7.211 partecipanti, effetto grande (7, 8)
+14. Unplugged + computer funzionano insieme; solo unplugged non basta (9, 2)
+15. Progetti con strumenti senza codice: non serve saper programmare (10, 12, 13)
+16. I limiti: campioni piccoli, pochi controlli, nessuno studio in classe sulle
+    allucinazioni; e gli errori di Perplexity nel cercare le fonti (sezione D)
+
+DALLA RICERCA ALLA CLASSE (17-26) - un percorso di 6 lezioni per 14-15 anni
+17. Il percorso in una slide: 6 lezioni, attività e grande idea di ciascuna
+18. Lezione 1 - Cosa pensiamo dell'IA: questionario iniziale e carte "È IA o no?"
+    (grandi idee 1-2; fonti 2, 20)
+19. Lezione 2 - Uno stesso oggetto, tanti disegni (unplugged): ognuno disegna a mano
+    lo stesso oggetto; si confrontano le differenze e si scrivono le regole per
+    riconoscerlo. Attività sperimentata in Iqbal 2025 (grande idea 3; 15)
+20. Lezione 3 - L'IA che indovina i disegni: Quick, Draw! e i dati con cui ha imparato,
+    poi Teachable Machine addestrato con i semi delle carte da gioco disegnati dagli
+    studenti. Attività sperimentate in Iqbal 2025 e Williams 2023 (grandi idee 1 e 3; 15, 2)
+21. Lezione 4 - Rompiamo l'IA: Teachable Machine addestrato solo con disegni tutti
+    simili, poi un disegno diverso; in Quick, Draw! cercare quali disegni non riconosce
+    e perché. Approfondimento: notebook Python "spam o non spam" (grandi idee 3 e 5; 15, 2)
+22. Lezione 5 - Sembra vero ma può essere falso: immagini generate dall'IA e stereotipi
+    (chi è rappresentato e chi no), poi verifica delle risposte di un chatbot, usato
+    solo dall'insegnante (grandi idee 4 e 5; 19, 16, 17)
+23. Lezione 6 - Chi ci guadagna, chi ci rimette: matrice etica e questionario finale
+    (grande idea 5; 2)
+24. Le schede guida: poche domande precise per ogni attività, per evitare idee
+    sbagliate (2)
+25. Valutare il percorso: stesso questionario prima e dopo; cosa osservare
+    (dati, errori, pregiudizi nelle risposte) (3, 18)
+26. Materiali gratuiti: Quick, Draw! (quickdraw.withgoogle.com), Teachable Machine,
+    MIT RAISE (percorso How to Train Your Robot), notebook Python, poster AI4K12
+
+CHIUSURA
+27. Conclusioni in tre frasi + riferimenti principali e crediti del poster
